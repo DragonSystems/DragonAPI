@@ -5,4 +5,5 @@ COPY socket.js ./
 COPY package.json ./
 RUN npm install
 EXPOSE 8011
-CMD [ "node", "socket.js" ]
+ENTRYPOINT [ "node" ]
+CMD [ "socket.js" ]

@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "brace-style": "off",
+    "no-var": "off",
+    "require-jsdoc": "off",
+    "max-len": ["error", 100]
+  }
+}
